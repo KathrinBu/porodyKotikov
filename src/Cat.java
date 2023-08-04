@@ -10,8 +10,8 @@ public class Cat {
     @Override
     public String toString() {
         return "Cat{" +
-                "name='" + name + '\'' +
-                ", porody=" + porody +
+                "name - '" + name + '\'' +
+                ", poroda - " + porody +
                 '}';
     }
 }
