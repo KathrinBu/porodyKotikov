@@ -12,6 +12,6 @@ public class Cat {
         return "Cat{" +
                 "name - '" + name + '\'' +
                 ", poroda - " + porody +
-                '}';
+                '}' + "\n";
     }
 }
