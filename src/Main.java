@@ -9,7 +9,7 @@ public class Main {
 
         }
         public static List<Cat> vvod(int kolvo) {
-            ArrayList<Cat> cats = new ArrayList<>();
+            ArrayList<Cat> cats = new ArrayList<>(kolvo);
             System.out.println("Vvedite imj kota:");
             Scanner scanner1 = new Scanner(System.in);
             String name = scanner1.nextLine();
